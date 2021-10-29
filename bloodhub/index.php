@@ -1,2 +1,3 @@
-<?php include 'navigator.php';?>
-
+<?php
+ header("Location: navigator.php");
+?>

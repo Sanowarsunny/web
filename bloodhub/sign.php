@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link rel="stylesheet" href="sign.css">
+	<link rel="stylesheet" href="style/sign.css">
 	<style>
 .error {color: #FF0000;}
 </style>

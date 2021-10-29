@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>LOGIN</title>
-	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style/log.css">
 </head>
 <body>
      <form action="logval.php" method="post">
@@ -15,8 +15,10 @@
 
      	<label>Password</label>
      	<input type="password" name="password" placeholder="Password"><br>
-
-     	<button type="submit">Login</button>
+		       
+	
+		<a href="index.php"><button type="button" class="back-btn">Back</button></a>
+     	<button type="submit" class="log-btn">Login</button>
      </form>
 </body>
 </html>
