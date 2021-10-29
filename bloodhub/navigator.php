@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navigator.css">
+    <link rel="stylesheet" href="style/navigator.css">
     <title>navigator</title>
 </head>
 <body>
     <header>
         <div class="container">
             <nav class="nav_checkbox">
-                <a href="#" class="logo"><h2>BLOOD HUB</h2></a>
+                <a href="#" class="logo"><b><h2>BLOOD HUB</h2></b></a>
                 <input type="checkbox" id="tab-nav" class="tab-nav">
                 <label for="tab-nav" class="label">
                     <div class="burger"></div>
@@ -19,8 +19,8 @@
                     <div class="burger"></div>
                 </label>
                 <ul class="content_nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
                     <li><a href="#">OUR VOLUNTEERS</a></li>
                     <li><a href="#">FIND BLOOD</a></li>
                     <li><a href="#">LIVE FEED</a></li>
@@ -31,8 +31,78 @@
         </div>
 		
     </header>
-    <section class="content_section">
-
-    </section>
+    
+	<section class="div-top">
+		
+		<b>Save Life Connect</b>
+		
+	</section>
+	
+    <section class="body" >
+	 <div class = "message">
+		
+		
+		<br><p>
+		<img class="home1" src="home1.jpg" >
+		
+		<h3> Find blood donors in your area</h3>
+		
+		Our iOS and Android mobile app makes it easier to 
+		find volunteer blood donors near your location. 
+		Our smart system will find blood donors closer 
+		to you and will connect you in a matter
+		of minutes at zero cost.
+		</p><br><br>
+		
+		<br><br><p>
+		<img class="home2" src="home2.png" >
+		<h3>Eliminating obstacles in emergencies </h3>
+		Our automated blood donation system works 
+		efficiently whenever someone needs a blood 
+		transfusion. As soon as a new blood request 
+		is raised, it is routed among our local 
+		volunteer blood donors. We know time matters! 
+		So we keep you updated with real-time
+		notifications sent directly to you via SMS
+		(text message) or the installed mobile app.
+		</p>
+		
+		<br><p>
+		<img class="home3" src="home3.jpg" >
+		<h3>What could you do?</h3>
+		In as little as few minutes, you can become 
+		someones unnamed, unknown, but all-important hero.
+		Saving a life is noble work that starts very 
+		simply and easily. You can join our cause in 
+		a variety of ways. Every form of contribution
+		you make is important, valued and essential 
+		in our shared mission to save lives. 
+		Register now and enroll as a blood donor.
+		A financial donation can also help save lives.
+		</p>
+		
+		
+		<br><br><p>
+		<img class="home4" src="home4.jpg" >
+		<h3> Don't have access to internet?</h3>
+		We have an automated SMS (text message) service.
+		All you need to do is send a text message to 8655, 
+		"blood need (bloodgroup) in (your-city)".
+		It does not need to be in english, 
+		you can write in any language you want. 
+		Our automated systems are smart 
+		enough to understand anything you 
+		write and help you find a blood donor 
+		within seconds if not minutes.
+		
+		</p><br>
+	 </div><br>
+    </section><br>
+	<br><br>
+	<section class="div-bottom">
+		
+		
+	</section>
+	
 </body>
 </html>
