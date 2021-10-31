@@ -1,49 +1,20 @@
+
 body{
-	
+
     margin: 0;
-    padding: 0;
+    padding: 0%;
     box-sizing: border-box;
-	background-color:#3786DC ;
-	color:white;
-}
-
-.mid{
-	 
-  word-spacing: 2px;
-  max-width: 700px;
-  padding-top: 170px;
-  padding-left:30px;
-  padding-right:30px;
-  padding-bottom:20px;
-  box-shadow: 0px 0px 20px #00000020;
-  border-radius: 8px;
-  box-sizing: 20%;
-  margin: auto;
-  text-align: justify;
-  text-decoration: none;
-  
-}
-
-.about{
-	
-	padding-left:3%;
-	bottom: 77.9%;
-    position: fixed;
-    color: white;
-    width: 100%;
-    background-color: #2062C4;
+	background-color: #9BC6F5;
 
 }
-
 
 header{
-
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 3;
     width: 100%;
     background-color: #11438D;
-	
+
 }
 
 .container{
@@ -138,7 +109,19 @@ header{
 
 }
 
+.content_section{
 
+    height: 120vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+
+}
 
 @media screen and (max-width: 1280px){
 
@@ -187,13 +170,70 @@ header{
 
 
 }
-.message p{
-	font-size:20px;
-	
+
+.volunteer{
+	font-size:12px;
+	padding-left:2%;
+	bottom: 79.9%;
+    position: fixed;
+	word-spacing: 1px; 
+    color: white;
+    width: 100%;
+     background-color: #2062C4;
+
 }
-.message h3{
-	word-spacing:20%;
-	font-size:32px;
+
+.box{
+	text-decoration:none;
+	word-spacing: 2px;
+	max-width: 700px;
+	padding: auto;
+	width: 290%;
+	padding-top:160px;
+	
+	box-sizing: 20%;
+	margin: auto;
+	text-align: justify;
+
+}
+.box h3{
+	
+	font-size:30px;
+}
+.box p{
+	
+	font-size:20px;
+}
+
+.box2{
+	
+	max-width: 300px;
+	text-decoration: none;
+	height:60vh;
+	max-width:200vh;
+	box-shadow: 0px 0px 20px #00000020;
+	border-radius: 4px;
+	box-sizing: 20%;
+	margin: auto;
+	text-align: justify;
+	background-color: white;
+ 
+
+}
+
+.box3{
+	max-width: 300px;
+	height:40vh;
+	background-color: white;
+    padding-top: 10px;
+	max-width:100vh;
+	box-shadow: 0px 0px 20px #00000020;
+	border-radius: 4px;
+	box-sizing: 20%;
+	margin: auto;
+	text-align: justify;
+	
+
 }
 .container1{
 	max-width: 1170px;
@@ -209,7 +249,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #11438D;
+	background-color: #083769;
     padding: 4px 0;
 }
 .footer-col{
