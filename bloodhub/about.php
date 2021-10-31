@@ -1,13 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	
 	<title>About us</title>
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 	<link rel="stylesheet"  href="style/abou.css">
 </head>
 <body>
-
 	<header>
         <div class="container">
             <nav class="nav_checkbox">
@@ -21,7 +21,7 @@
                 <ul class="content_nav">
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a href="#">OUR VOLUNTEERS</a></li>
+                    <li><a href="volunteer.php">OUR VOLUNTEERS</a></li>
                     <li><a href="#">FIND BLOOD</a></li>
                     <li><a href="#">LIVE FEED</a></li>
 					<li><a href="sign.php">SIGN UP</a></li>
@@ -41,10 +41,10 @@
 	
 	 
 	 <div class = "message">
-		<h1><strong>About Save Life Connect</strong></h1>
+		<h3><strong>About Blood Hub</strong></h3>
 		
-		<p>
 		<h3>What is this all about? </h3>
+		<p>
 		Project Save Life Connect is an innovative approach 
 		to address global health. We provide immediate access
 		to blood donors all over Pakistan, 24 hours a day, 7 days a week!
@@ -52,8 +52,8 @@
 		together as a network that respond to disasters or emergency situations in an efficient manner.
 		</p>
 		
-		<p>
 		<h3>What we do? </h3>
+		<p>
 		The ultimate goal of this project is to 
 		provide an easy-to-use, easy-to-access, 
 		efficient, and reliable way to get life-saving blood, 
@@ -64,8 +64,8 @@
 		ready to help save lives any time, any place.
 		</p>
 		
-		<p>
 		<h3> How it works?</h3>
+		<p>
 		Our automated system works efficiently whenever someone needs a
 		blood transfusion. Simply post a blood a request
 		within our system, either on this website or by 
@@ -81,9 +81,8 @@
 		</p>
 		
 		
-		<p>
 		<h3> Don't have access to internet?</h3>
-		
+		<p>
 		In case, someone is unable to use the mobile application
 		or the website or has not enough knowledge to understand
 		how they can find a blood donor in an emergency, 
@@ -102,8 +101,33 @@
 	 </div>
 			
     </section>
-	
+	<footer class="footer">
+  	 <div class="container1">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Blood Hub</h4>
+  	 			<ul>
+  	 				<li><a href="about.php">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 	
 	
 </body>
 </html>
+

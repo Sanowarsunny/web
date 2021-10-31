@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/navigator.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+	<link rel="stylesheet" href="style/navigat.css">
     <title>navigator</title>
 </head>
 <body>
     <header>
         <div class="container">
             <nav class="nav_checkbox">
-                <a href="#" class="logo"><b><h2>BLOOD HUB</h2></b></a>
+			
+                <b  class="logo"><h2>BLOOD HUB</h2></b>
                 <input type="checkbox" id="tab-nav" class="tab-nav">
                 <label for="tab-nav" class="label">
                     <div class="burger"></div>
@@ -21,7 +24,7 @@
                 <ul class="content_nav">
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a href="#">OUR VOLUNTEERS</a></li>
+                    <li><a href="volunteer.php">OUR VOLUNTEERS</a></li>
                     <li><a href="#">FIND BLOOD</a></li>
                     <li><a href="#">LIVE FEED</a></li>
 					<li><a href="sign.php">SIGN UP</a></li>
@@ -34,8 +37,18 @@
     
 	<section class="div-top">
 		
-		<b>Save Life Connect</b>
+		<b>Blood Hub</b>
+		<div class="box">
+			
+			<img class ="logopic"src="admin.gif" alt="Logo Not Find">
+			
+			
+		</div>
 		
+		<div class="box1">
+		
+		
+		</div>
 	</section>
 	
     <section class="body" >
@@ -99,10 +112,32 @@
 	 </div><br>
     </section><br>
 	<br><br>
-	<section class="div-bottom">
-		
-		
-	</section>
+	
+		<footer class="footer">
+  	 <div class="container1">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Blood Hub</h4>
+  	 			<ul>
+  	 				<li><a href="about.php">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 	
 </body>
 </html>
